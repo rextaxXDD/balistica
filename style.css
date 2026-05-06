@@ -344,3 +344,195 @@ footer{
     0%,80%{opacity:1;}
     100%{opacity:0;visibility:hidden;}
 }
+/* ============================= */
+/* 📱 TABLETS Y PANTALLAS MEDIAS */
+/* ============================= */
+@media(max-width: 1024px){
+
+    .hero h1{
+        font-size:52px;
+    }
+
+    .hero h2{
+        font-size:22px;
+    }
+
+    .hero-overlay{
+        padding:40px 25px;
+    }
+
+    .glass{
+        width:92%;
+        padding:35px;
+    }
+
+    h3{
+        font-size:30px;
+    }
+
+    .imgbox{
+        width:45%;
+    }
+}
+
+/* ============================= */
+/* 📱 CELULARES */
+/* ============================= */
+@media(max-width: 768px){
+
+    body{
+        cursor:auto;
+    }
+
+    #cursor{
+        display:none;
+    }
+
+    nav{
+        padding:14px 5px;
+    }
+
+    nav a{
+        margin:0 8px;
+        font-size:13px;
+    }
+
+    .hero{
+        padding:80px 10px;
+        min-height:auto;
+    }
+
+    .hero-overlay{
+        padding:30px 15px;
+        width:95%;
+    }
+
+    .hero h1{
+        font-size:32px;
+        line-height:1.2;
+    }
+
+    .hero h2{
+        font-size:18px;
+    }
+
+    #typing{
+        font-size:15px;
+    }
+
+    #reloj{
+        font-size:14px;
+    }
+
+    .grupo span{
+        padding:9px 14px;
+        font-size:13px;
+        margin:5px;
+    }
+
+    .glass{
+        width:94%;
+        margin:40px auto;
+        padding:25px 18px;
+    }
+
+    h3{
+        font-size:24px;
+        text-align:center;
+    }
+
+    p{
+        font-size:15px;
+        line-height:1.7;
+        text-align:justify;
+    }
+
+    .cards,
+    .stats,
+    .galeria,
+    .videos{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card,
+    .statbox{
+        width:100%;
+        min-width:100%;
+    }
+
+    .imgbox{
+        width:100%;
+        height:220px;
+    }
+
+    .video-card{
+        width:100%;
+        max-width:320px;
+    }
+
+    .timeline{
+        padding-left:12px;
+    }
+
+    .timeline-item{
+        font-size:14px;
+        padding:14px;
+    }
+
+    footer h3{
+        font-size:20px;
+    }
+
+    footer p{
+        text-align:center;
+        font-size:14px;
+    }
+
+    .casquillo{
+        width:35px;
+        opacity:.06;
+    }
+
+    .loader-content h1{
+        font-size:28px;
+        text-align:center;
+    }
+
+    .loader-content p{
+        font-size:14px;
+    }
+}
+
+/* ============================= */
+/* 📱 CELULARES PEQUEÑOS */
+/* ============================= */
+@media(max-width: 480px){
+
+    nav a{
+        margin:0 4px;
+        font-size:11px;
+    }
+
+    .hero h1{
+        font-size:26px;
+    }
+
+    .hero h2{
+        font-size:15px;
+    }
+
+    h3{
+        font-size:21px;
+    }
+
+    p{
+        font-size:14px;
+    }
+
+    .grupo span{
+        display:block;
+        width:90%;
+        margin:7px auto;
+    }
+}
